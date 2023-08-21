@@ -1,0 +1,12 @@
+.product__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: baseline; */
+}
+.product__card {
+  width: 300px;
+  box-shadow: 2px 2px 5px 2px;
+  margin: 30px 10px;
+  padding: 20px;
+}
