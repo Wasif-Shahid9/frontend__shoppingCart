@@ -31,7 +31,7 @@ const Product = ({ setCart, cart }) => {
             <p className="font-semibold"> {item.category} </p>
             <button
               className="d-block m-auto w-[100%] mt-5  "
-              onClick={() => navigate("./ProductDetail", { state: item })}
+              onClick={() => navigate("./frontend__shoppingCart/ProductDetail", { state: item })}
             >
               Detail
             </button>

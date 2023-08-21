@@ -21,13 +21,13 @@ const App = () => {
       <Navbar cart={cart} />
 
       <Routes>
-        <Route path="/" element={<Product setCart={setCart} cart={cart} />} />
+        <Route path="/frontend__shoppingCart/" element={<Product setCart={setCart} cart={cart} />} />
         <Route
-          path="/productdetail"
+          path="/frontend__shoppingCart/productdetail"
           element={<ProductDetail cart={cart} setCart={setCart} />}
         />
-        <Route path="/checkout" element={<CheckOut />} />
-        <Route path="/addtocartpage" element={<AddToCartPage cart={cart} />} />
+        <Route path="/frontend__shoppingCart/checkout" element={<CheckOut />} />
+        <Route path="/frontend__shoppingCart/addtocartpage" element={<AddToCartPage cart={cart} />} />
       </Routes>
     </Router>
   );
